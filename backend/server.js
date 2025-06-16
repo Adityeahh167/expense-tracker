@@ -16,7 +16,7 @@ app.use(express.json());
 // ✅ Enable CORS
 app.use(
   cors({
-    origin: "*",
+    origin: process.env.CLIENT_URL||"*",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })

@@ -1,4 +1,4 @@
-export const BASE_URL = "https://vercel.com/adityas-projects-47719430/expense-tracker-backend";
+export const BASE_URL = "https://expense-tracker-api-lilac.vercel.app/";
 
 export const API_PATHS = {
   AUTH: {
